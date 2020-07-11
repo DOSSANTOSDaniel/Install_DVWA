@@ -22,8 +22,8 @@ Deux mode d'installation :
 
 ## l'installation interactive
 
-Permet de déterminer un nom pour l'utilisateur de la base de donnée dvwa et un mot de passe.
-Permet aussi de choisir le niveau de difficulté.
+* Permet de déterminer un nom pour l'utilisateur de la base de donnée dvwa et un mot de passe.
+* Permet aussi de choisir le niveau de difficulté.
 
 ## L'installation par défaut
 
@@ -60,7 +60,7 @@ Fin de l'installation
 
 Page de configuration :
 
-> http://<IP>/DVWA/setup.php
+> http://'IP'/DVWA/setup.php
 
 Appuyer sur le bouton : "Create / Reset Database"
 
