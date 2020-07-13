@@ -16,6 +16,14 @@ LEVELUP='low'
 
 ### Main
 
+if [ ${logname} != 'root' ]
+then
+  echo -e "Le script doit être lancé en root!"
+  exit 1
+else
+  echo "User --> ${logname}"
+fi
+
 echo -e "\n Merci de choisir une option \n"
 
 # menu
