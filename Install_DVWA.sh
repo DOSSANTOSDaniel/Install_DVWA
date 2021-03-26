@@ -28,7 +28,7 @@ echo -e "\n Merci de choisir une option \n"
 
 # menu
 PS3='Votre choix : '
-options=("Installation par défaut" "Installation interactive" "Quit")
+options=("Installation par défaut" "Installation interactive" "Quitter")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -43,7 +43,7 @@ do
             read -p "Niveau : " LEVELUP
             break
             ;;
-        "Quit")
+        "Quitter")
             exit 1
             ;;
         *) echo "Attention option invalide $REPLY";;
@@ -91,4 +91,4 @@ mysql -u root -e "flush privileges;"
 # Redémarrer Apache2
 systemctl restart apache2
 
-echo -e "\n Fin de l'installation, accés à la page web : 'http://<IP>/DVWA/setup.php' \n"
+echo -e "\n Fin de l'installation, accès à la page web : 'http://<IP>/DVWA/setup.php' \n"

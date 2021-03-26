@@ -56,7 +56,7 @@ Fin de l'installation
 * Le script doit être lancé en super utilisateur.
 * L'installation a été testé seulement sur ubuntu serveur 20.04.
 
-## Connection sur la page web
+## Connexion sur la page web
 
 Page de configuration :
 
